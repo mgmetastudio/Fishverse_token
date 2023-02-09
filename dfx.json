@@ -1,0 +1,15 @@
+{
+  "canisters": { 
+    "icrc1_ledger": {
+      "type": "custom",
+      "wasm": "src/icrc1/ic-icrc1-ledger.wasm",
+      "candid": "src/icrc1/icrc1.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
